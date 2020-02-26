@@ -2,7 +2,9 @@
 
 ## Project Goals
 
-    - The goal of this project is to use linear regression models to predict total home runs for 2020. In order to account for possible player injuries that may limit their plate appearances, we engineered our dependent variable, Home Runs per Plate Appearance. 
+    - The goal of this project is to use linear regression models to predict total home runs for 2020. 
+    In order to account for possible player injuries that may limit their plate appearances, 
+    we engineered our dependent variable, Home Runs per Plate Appearance. 
 
 
 ## Data Sources
@@ -13,7 +15,9 @@
 
 ## Data Summary
 
-    - Using datasources mentioned above, we collected player statistics from the 2015 season through 2018. Then we concatanated all four datasets into one master training set that we would use to train our regression model. After cleaning the data, we had a total of 854 observations and 54 possible independent variables. 
+    - Using datasources mentioned above, we collected player statistics from the 2015 season through 2018. 
+    Then we concatanated all four datasets into one master training set that we would use to train our regression model. 
+    After cleaning the data, we had a total of 854 observations and 54 possible independent variables. 
 
 
 ## Tools
@@ -36,7 +40,8 @@
         - Trial and Error
         
 ## Final Model
-    - Our best fitted model ended up being a basic linear regression with a lambda value of zero. The primary metric that was used to determine the model with the best fit is RMSE (Root Mean Squared Error), which had a value of .6723 . 
+    - Our best fitted model ended up being a basic linear regression with a lambda value of zero. 
+    The primary metric that was used to determine the model with the best fit is RMSE (Root Mean Squared Error), which had a value of .6723 . 
 
 
 ## Results
