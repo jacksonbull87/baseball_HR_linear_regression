@@ -16,7 +16,7 @@
 ## Data Summary
 
     - Using datasources mentioned above, we collected player statistics from the 2015 season through 2018. 
-    Then we concatanated all four datasets into one master training set that we would use to train our regression model. 
+    Then we concatenated all four datasets into one master training set that we would use to train our regression model. 
     After cleaning the data, we had a total of 854 observations and 54 possible independent variables. 
 
 
@@ -45,4 +45,12 @@
 
 
 ## Results
-    - 
+    - After merging our final predictions with our 2019 dataset, we conducted a spot check of random players to compare our predicted Home Run values with predictions conducted on FanGraphs.com. We noticed that the better the player, the further our predictions were off by. These findings coincide with our residual error plot which shows a funnel-shape distribution; as Home Runs increase, so does our variance in residuals. 
+    
+    
+    
+## Ways to Improve Our Model
+    - more player observations
+    - Need to take into account difference in ballpark size and the Juice Ball of 2019
+    - Because we only used data from 2019 to predict results for 2020, a player having a 'bad' year by chance could skew our results.
+    
